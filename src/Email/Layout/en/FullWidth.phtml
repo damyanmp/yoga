@@ -1,0 +1,85 @@
+<?php /** @var $this \Yoga\Email\Layout\FullWidth */ ?>
+<table cellpadding="0" cellspacing="15" border="0" width="100%" bgcolor="#f0f0f0" style="background-color: #f0f0f0" align="left" style="text-align:left;">
+  <tr>
+    <td>
+      <table cellpadding="15" cellspacing="0" border="0" width="100%" bgcolor="#ffffff">
+        <tr>
+          <td>
+            <a href="http://slyce.it/>" style="color:#000; text-decoration:none;" title="Slyce" target="_blank">
+              <img src="http://sso.slyceapp.com/i/slyce-112x44.png" style="display:block; border:0 none;" alt="Slyce" width="112" height="44" />
+            </a>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding: 20px 30px 20px 30px; font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: left;" align="left">
+            <?=$this->getContent()?>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <!-- signature -->
+            <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; font-size:10px; line-height: 17px; font-family:Arial, Helvetica, sans-serif; text-align: left; bgcolor="#ffffff">
+              <tr cellpadding="0" cellspacing="0" border="0" style="height: 5px; background: #000000;">
+                <td colspan="5">
+                  <img src="http://slyce.it/email/signatures/images/topBar.png" width="550" height="5" alt="" style="display: block;" />
+                </td>
+              </tr>
+              <tr cellpadding="0" cellspacing="0" border="0">
+                <td colspan="5">
+                  <img src="http://slyce.it/email/signatures/images/spacer_h20.png" width="1" height="20" alt="" style="display: block;" />
+                </td>
+              </tr>
+              <tr cellpadding="0" cellspacing="0" border="0" valign="top">
+                <td cellpadding="0" cellspacing="0" border="0" valign="top" style="width: 15px;">
+                  <img src="http://slyce.it/email/signatures/images/spacer_w15.png" width="15" height="1" alt="" style="display: block;" />
+                </td>
+                <td cellpadding="0" cellspacing="0" border="0" valign="top" style="width: 79px;">
+                  <a href="http://slyce.it/" title="Visit the Slyce website" target="_blank"><img src="http://slyce.it/email/signatures/images/logo-tm.png" style="border: 0; font: 14px/19px Helvetica, Arial, sans-serif; color: #00adef; font-weight: bold;" width="79" height="79" alt="Slyce" /></a>
+                </td>
+                <td cellpadding="0" cellspacing="0" border="0" valign="top" style="width: 30px;">
+                  <img src="http://slyce.it/email/signatures/images/spacer_w30.png" width="30" height="1" alt="" style="display: block;" />
+                </td>
+                <td cellpadding="0" cellspacing="0" border="0" valign="top;" align="left">
+                  <table>
+                    <tr>
+                      <td>
+                        <table width="444">
+                          <tr valign="top">
+                            <td style="margin: 0; padding: 0; font-size: 10px; color:#666; text-decoration:none; text-transform:uppercase; line-height: 17px; font-family:Arial, Helvetica, sans-serif; text-decoration: none;">
+                              <nobr>Truly yours,</nobr><br/>
+                              <?=$this->getSignatureName()?>
+                            </td>
+                            <td align="right">
+                              <p style="margin: 0; padding: 0; color:#00adef; font-family:Arial, Helvetica, sans-serif; font-size: 14px; line-height: 17px;">
+                                <a href="http://www.pinterest.com/slyceit" title="Find Slyce on Pinterest" target="_blank"><img src="http://slyce.it/email/signatures/images/s_pinterest.png" alt="Pinterest" width="24" height="23" style="border: 0; font: 10px/15px Helvetica, Arial, sans-serif; color: #666666;" /></a>
+                                <a href="http://www.twitter.com/slyceit" title="Follow Slyce on Twitter" target="_blank"><img src="http://slyce.it/email/signatures/images/s_twitter.png" alt="Twitter" width="28" height="23" style="border: 0; font: 10px/15px Helvetica, Arial, sans-serif; color: #666666;" /></a>
+                                <a href="https://www.facebook.com/slyceit" title="Find Slyce on Facebook" target="_blank"><img src="http://slyce.it/email/signatures/images/s_facebook.png" alt="Facebook" width="15" height="23" style="border: 0; font: 10px/15px Helvetica, Arial, sans-serif; color: #666666;" /></a>
+                                <a href="https://plus.google.com/104023543739287065690" title="Find Slyce on Google+" target="_blank"><img src="http://slyce.it/email/signatures/images/s_googleplus.png" alt="Google+" width="28" height="23" style="border: 0; font: 10px/15px Helvetica, Arial, sans-serif; color: #666666;" /></a>
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr><td><img src="http://slyce.it/email/signatures/images/spacer_h8.png" width="1" height="8" alt="" style="display: block;" /></td></tr>
+                    <tr>
+                      <td>
+                        <p style="margin: 0; padding: 0; color:#999; font-family:Arial, Helvetica, sans-serif; font-size: 10px; line-height: 15px;">All information in this message and attachments is confidential and may be legally privileged. Only intended recipients are authorized to use it. Read the <a href="http://slyce.it/email/signatures/disclaimer.html" style="text-decoration: underline; color: #999; font-family:Arial, Helvetica, sans-serif;" title="Read the full email disclaimer on the Slyce website">full disclaimer</a>.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td cellpadding="0" cellspacing="0" border="0" valign="top" style="width: 15px;">
+                  <img src="http://slyce.it/email/signatures/images/spacer_w15.png" width="15" height="1" alt="" style="display: block;" />
+                </td>
+              </tr>
+            </table>
+            <!-- /signature -->
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

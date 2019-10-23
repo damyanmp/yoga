@@ -1,0 +1,17 @@
+{
+    "name": "yoga/core",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/console": "2.4.*",
+        "swiftmailer/swiftmailer": "*",
+        "aws/aws-sdk-php": "2.*",
+        "phpunit/phpunit": "4.*",
+        "predis/predis": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yoga\\": "src"
+        }
+    }
+}
